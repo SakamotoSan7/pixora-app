@@ -83,7 +83,7 @@ Open the Expo Go app on your phone and scan the QR code to view the project.
 
 ## 👨‍💻 About the Creator
 
-Hi, I’m **Sakamoto-san**! I’m a passionate developer focused on building seamless, modern, and enjoyable user experiences—especially in the world of movies and entertainment. I love working with cutting-edge tools like React Native, Expo, and Appwrite to create apps that are both beautiful and functional. If you’re interested in collaborating or have feedback about Pixora, feel free to reach out!
+Hi, I’m **Kristianto**! I’m a passionate developer focused on building seamless, modern, and enjoyable user experiences—especially in the world of movies and entertainment. I love working with cutting-edge tools like React Native, Expo, and Appwrite to create apps that are both beautiful and functional. If you’re interested in collaborating or have feedback about Pixora, feel free to reach out!
 
 ---
 
