@@ -1,50 +1,98 @@
-# Welcome to your Expo app 👋
+# 🎬 Pixora: Your Movie Universe
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to **Pixora**! This is a movie app built for film lovers who want a smooth, modern, and fun way to discover what’s trending, search for favorites, and see what’s hot right now. Whether you’re a casual viewer or a movie buff, Pixora’s got you covered.
 
-## Get started
+## 🤖 What’s Pixora All About?
 
-1. Install dependencies
+Pixora is a cross-platform movie app built with Expo, TypeScript, and Tailwind CSS. It fetches real-time movie data and uses a custom popularity algorithm (powered by Appwrite) to rank movies based on what users are actually engaging with. The UI is designed to be clean, responsive, and easy to use—so you can focus on finding your next watch.
 
-   ```bash
-   npm install
-   ```
+## ⚙️ Tech Stack
 
-2. Start the app
+- **Expo**: Universal app platform for iOS, Android, and web. Fast refresh, file-based routing, native modules, and easy deployment.
+- **React Native**: Build mobile UIs with React—component-based, cross-platform, and tightly integrated with Expo.
+- **Appwrite**: Open-source backend for authentication, databases, file storage, real-time messaging, and more.
+- **TypeScript**: Strongly-typed JavaScript for better code quality and maintainability.
+- **Tailwind CSS + NativeWind**: Utility-first styling for fast, consistent, and responsive UI design.
 
-   ```bash
-   npx expo start
-   ```
+## 🔋 Features
 
-In the output, you'll find options to open the app in a
+- **Real-time Data**: Always up-to-date movie info.
+- **Home Page**: Discover featured and trending movies.
+- **Search**: Find your favorite films in seconds.
+- **Popularity Algorithm**: See what’s popular based on real user activity.
+- **Modern UI/UX**: Built for speed, looks, and scalability.
+- **Reusable Code Architecture**: Easy to maintain and extend.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Why Pixora?
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Pixora isn’t just another movie app. It’s designed to be fast, scalable, and genuinely enjoyable to use. Whether you’re browsing for something new or searching for a classic, Pixora makes it easy.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+Feel free to fork, star, or contribute! Happy movie hunting! 🍿
+
+## 🛠️ Getting Started
+
+Follow these steps to set up the project locally on your machine.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Cloning the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/SakamotoSan7/pixora-app.git
+cd pixora-app
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Installation
 
-## Learn more
+Install the project dependencies:
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npm install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Set Up Environment Variables
 
-## Join the community
+Create a `.env` file in the root directory and add:
 
-Join our community of developers creating universal apps.
+```env
+EXPO_PUBLIC_MOVIE_API_KEY=
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=
+EXPO_PUBLIC_APPWRITE_DATABASE_ID=
+EXPO_PUBLIC_APPWRITE_COLLECTION_ID=
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Replace the placeholder values with your actual TMDB API key and Appwrite credentials.
+
+### Running the Project
+
+```bash
+npx expo start
+```
+
+Open the Expo Go app on your phone and scan the QR code to view the project.
+
+---
+
+## 👨‍💻 About the Creator
+
+Hi, I’m **Sakamoto-san**! I’m a passionate developer focused on building seamless, modern, and enjoyable user experiences—especially in the world of movies and entertainment. I love working with cutting-edge tools like React Native, Expo, and Appwrite to create apps that are both beautiful and functional. If you’re interested in collaborating or have feedback about Pixora, feel free to reach out!
+
+---
+
+## 📫 Contact
+
+- **Email**: inikristiantoitu@gmail.com
+- **LinkedIn**: [Kristianto](https://www.linkedin.com/in/kristianto-9117)
+- **GitHub**: [SakamotoSan7](https://github.com/SakamotoSan7)
+
+---
+
+Thanks for checking out Pixora! Your feedback and contributions are always welcome. Let’s make movie discovery better, together! 🎥✨
